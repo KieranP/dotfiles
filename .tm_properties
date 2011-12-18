@@ -1,0 +1,21 @@
+# defaults write com.macromates.TextMate.preview fileBrowserPlacement right
+# defaults write com.macromates.TextMate.preview disableTabBarCollapsing -bool YES
+
+TM_GIT = "/usr/local/bin/git"
+
+windowTitle = "$TM_FILEPATH"
+
+fontName = "Menlo"
+fontSize = 11
+
+includeFiles       = "{$includeFiles,.tm_properties,.htaccess,.gitignore}"
+excludeDirectories = "{$excludeDirectories,coverage,doc,log,tmp}"
+
+showInvisibles = false
+softWrap       = false
+softTabs       = true
+tabSize        = 2
+
+[ text ]
+spellChecking    = true
+spellingLanguage = 'en_GB'

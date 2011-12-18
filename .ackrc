@@ -1,0 +1,10 @@
+--ignore-dir=coverage
+--ignore-dir=doc
+--ignore-dir=less
+--ignore-dir=log
+--ignore-dir=tmp
+--type-add=coffeescript=.coffee
+--type-add=csv=.csv
+--type-add=features=.feature
+--type-add=less=.less
+--type-add=md=.md
