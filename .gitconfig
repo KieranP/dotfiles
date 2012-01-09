@@ -1,0 +1,26 @@
+[user]
+  name = Kieran Pilkington
+  email = kieran776@gmail.com
+  editor = mate
+
+[core]
+  excludesfile = /Users/kieran/.gitignore
+  editor = mate -w
+
+[color]
+  status = auto
+  branch = auto
+  diff = auto
+  interactive = auto
+  ui = auto
+  pager = true
+
+[help]
+  autocorrect = 1
+
+[alias]
+  co = checkout
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+
+[push]
+  default = tracking

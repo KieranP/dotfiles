@@ -1,6 +1,10 @@
 /*
 !/.ackrc
 !/.caprc
+!/.gitconfig
 !/.gitignore
 !/.irbrc
+!/.profile
 !/.tm_properties
+!/.zshrc
+!/bin
