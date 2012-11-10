@@ -24,3 +24,5 @@ setopt prompt_subst
 PS1=$'%n:%~$(git_prompt_info)$(rvm_prompt_info)\n%# '
 
 source ~/.profile
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

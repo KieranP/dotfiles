@@ -3,6 +3,7 @@
 --ignore-dir=less
 --ignore-dir=log
 --ignore-dir=tmp
+--type-add=ruby=.ru
 --type-add=coffeescript=.coffee
 --type-add=csv=.csv
 --type-add=features=.feature

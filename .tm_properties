@@ -5,11 +5,12 @@ TM_GIT = "/usr/local/bin/git"
 
 windowTitle = "$TM_FILEPATH"
 
-fontName = "Menlo"
+fontName = "Monaco"
 fontSize = 11
 
-includeFiles       = "{$includeFiles,.tm_properties,.htaccess,.gitignore}"
-excludeDirectories = "{$excludeDirectories,coverage,doc,log,tmp}"
+includeFiles          = "{.tm_properties,.htaccess,.gitignore}"
+excludeDirectories    = "{coverage,doc,log,tmp}"
+excludeInFolderSearch = "{coverage,doc,log,tmp}"
 
 showInvisibles = false
 softWrap       = false
